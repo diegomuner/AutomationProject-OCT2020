@@ -1,4 +1,4 @@
-package Diego.AutomationProject_OCT2020;
+package tests;
 
 import static org.junit.Assert.assertTrue;
 
