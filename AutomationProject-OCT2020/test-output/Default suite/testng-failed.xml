@@ -3,11 +3,22 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="tests.BaseTest">
+      <class name="tests.Sample">
         <methods>
-          <include name="test1"/>
+          <include name="GoogleSearch"/>
         </methods>
-      </class> <!-- tests.BaseTest -->
+      </class> <!-- tests.Sample -->
     </classes>
   </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="tests.Sample">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="GoogleSearch"/>
+        </methods>
+      </class> <!-- tests.Sample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

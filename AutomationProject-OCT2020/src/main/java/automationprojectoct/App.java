@@ -1,4 +1,4 @@
-package Diego.AutomationProject_OCT2020;
+package automationprojectoct;
 
 /**
  * Hello world!

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class GoogleHomePage {
+public class GooglePage {
 	private WebDriver driver;
 	
 	//URL
@@ -23,7 +23,7 @@ public class GoogleHomePage {
  
  
  
- @FindBy(how = How.CLASS_NAME, using= "h3")
+ @FindBy(how = How.PARTIAL_LINK_TEXT, using = "Melanie (@zambicooking) • Instagram photos and videos")
  WebElement firstResult;
  
  
@@ -32,7 +32,7 @@ public class GoogleHomePage {
  
  
  //Constructor
- public GoogleHomePage(WebDriver driver){
+ public GooglePage(WebDriver driver){
      this.driver=driver;
      driver.get(PAGE_URL);
      //Initialise Elements
@@ -47,6 +47,7 @@ public class GoogleHomePage {
 	
  public void click1stResult() {
 	 firstResult.click();
+	 firstResult.submit();
 	 
 	 
  }

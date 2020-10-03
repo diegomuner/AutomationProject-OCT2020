@@ -38,9 +38,7 @@ public class BaseTest {
   @Test
   public void test1() throws InterruptedException {
 	  
-	Thread.sleep(10000);
-	  
-	  
+  
 	  
   }
 }
