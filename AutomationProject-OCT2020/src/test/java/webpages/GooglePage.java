@@ -19,12 +19,12 @@ public class GooglePage {
  
  
  @FindBy(how = How.NAME, using = "q" )
- WebElement searchField;
+private WebElement searchField;
  
  
  
  @FindBy(how = How.PARTIAL_LINK_TEXT, using = "Melanie (@zambicooking) • Instagram photos and videos")
- WebElement firstResult;
+ private WebElement firstResult;
  
  
  
@@ -47,7 +47,7 @@ public class GooglePage {
 	
  public void click1stResult() {
 	 firstResult.click();
-	 firstResult.submit();
+	 
 	 
 	 
  }

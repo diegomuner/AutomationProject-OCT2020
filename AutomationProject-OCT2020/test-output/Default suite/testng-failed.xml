@@ -10,15 +10,4 @@
       </class> <!-- tests.Sample -->
     </classes>
   </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="tests.Sample">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="GoogleSearch"/>
-        </methods>
-      </class> <!-- tests.Sample -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
