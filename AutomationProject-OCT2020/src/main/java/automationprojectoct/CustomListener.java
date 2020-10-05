@@ -31,7 +31,7 @@ public class CustomListener implements ITestListener{
 	   public void onTestFailure(ITestResult tr) { 
 	    	System.out.println("***** Error "+tr.getName()+" test has failed *****");
 	    	String methodName=tr.getName().toString().trim();
-	        ITestContext context = tr.getTestContext();
+	      //  ITestContext context = tr.getTestContext();
 	        WebDriver driver = (WebDriver)tr.getTestContext().getAttribute("webDriver");
 	    	takeScreenShot(methodName, driver);
 	    }
