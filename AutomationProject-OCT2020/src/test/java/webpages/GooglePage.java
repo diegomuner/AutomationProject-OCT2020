@@ -12,26 +12,15 @@ public class GooglePage {
 	
 	//URL
 	private static String PAGE_URL="https://www.google.com";
-	
+
 	//Locators
- //@FindBy(id = "lst-ib")
-	//WebElement searchField;
- 
- 
  @FindBy(how = How.NAME, using = "q" )
-private WebElement searchField;
- 
- 
+ 	private WebElement searchField;
  
  @FindBy(how = How.PARTIAL_LINK_TEXT, using = "Melanie (@zambicooking) • Instagram photos and videos")
- private WebElement firstResult;
+ 	private WebElement firstResult;
  
- 
- 
-
- 
- 
- //Constructor
+ 	//Constructor
  public GooglePage(WebDriver driver){
      this.driver=driver;
      driver.get(PAGE_URL);

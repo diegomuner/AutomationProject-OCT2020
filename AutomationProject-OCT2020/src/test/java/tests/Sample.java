@@ -19,7 +19,6 @@ public class Sample extends BaseTest {
 	public void GoogleSearch() throws InterruptedException{
 		
 
-	System.out.println("Thread Sleept 10 s");
 	GooglePage home = new GooglePage(driver);
 	home.searchFor("zambicooking");
 	System.out.println("Logramos Buscar a Zambicooking");
