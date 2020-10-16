@@ -1,0 +1,11 @@
+- Identificar problemas en el proceso de automatización.
+- Proponer mejoras al proceso de automatización.
+
+
+Diseñar un framework que:
+- pueda ejecutar los tests en distintos ambientes (DEV, QA, STG, PROD)
+- lea "test data" de diferentes archivos: (xls, json, csv)
+- pueda ejecutar tests en paralelo
+- pueda realizar consultas a la API de la aplicación
+- actualice los estados de los tests en Jira. (Previa creación de un "Test run")
+- genere un reporte html
