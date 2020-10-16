@@ -7,12 +7,15 @@ import com.automationoct.webpages.GooglePage;
 
 public class Sample extends BaseTest {
 
+	
+
 	@Test
 
 	public void GoogleSearch() throws InterruptedException {
 		driver.get(testEnvironment.url());
 		GooglePage home = new GooglePage(driver);
 		home.searchFor("zambicooking");
+		//testReporter.reporterName().log("Logramos Buscar a Zambicooking");
 		Reporter.log("Logramos Buscar a Zambicooking");
 		home.click1stResult();
 		Reporter.log("Estamos en Zambicooking!!!");
