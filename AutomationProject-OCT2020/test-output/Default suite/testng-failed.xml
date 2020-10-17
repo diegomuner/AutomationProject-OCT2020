@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationoct.tests.Sample">
+      <class name="com.automationoct.tests.ReadersTests">
         <methods>
-          <include name="GoogleSearch"/>
+          <include name="TestCsvReaderClass1"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.automationoct.tests.Sample -->
+      </class> <!-- com.automationoct.tests.ReadersTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

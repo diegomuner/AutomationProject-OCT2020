@@ -13,11 +13,13 @@ public class CSVReaderClass {
 
 	private static CSVReader csvReader;
 	static String[] csvCell;
+	
 
-	public static void main(String[] args) throws CsvValidationException, IOException {
+
+	public static void readCSV (String CsvFilePath) throws CsvValidationException, IOException {
 
 		// Get scanner instance
-		Scanner scanner = new Scanner(new File("SampleCSVFile.csv"));
+		Scanner scanner = new Scanner(new File(CsvFilePath));
 
 		// Set the delimiter used in file
 		scanner.useDelimiter(";");
@@ -31,10 +33,9 @@ public class CSVReaderClass {
 		// close the scanner
 		scanner.close();
 
-		// printCSV();
 
 	}
-
+/*
 	private static void printCSV() throws IOException, CsvValidationException {
 
 		csvReader = new CSVReader(new FileReader("SampleCSVFile.csv"));
@@ -47,5 +48,5 @@ public class CSVReaderClass {
 		}
 
 	}
-
+*/
 }
