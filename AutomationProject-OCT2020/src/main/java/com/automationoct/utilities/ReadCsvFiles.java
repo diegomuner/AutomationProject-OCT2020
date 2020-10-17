@@ -11,7 +11,7 @@ import com.opencsv.exceptions.CsvValidationException;
 
 public class ReadCsvFiles {
  
- public static void readCSV(String CsvFilePath) throws IOException, CsvException {
+ public static void readCsv(String CsvFilePath) throws IOException, CsvException {
     
  // This will load csv file 
  CSVReader reader = new CSVReader(new FileReader(CsvFilePath));

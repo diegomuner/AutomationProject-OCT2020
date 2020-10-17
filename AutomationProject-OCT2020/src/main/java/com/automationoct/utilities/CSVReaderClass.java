@@ -16,7 +16,7 @@ public class CSVReaderClass {
 	
 
 
-	public static void readCSV (String CsvFilePath) throws CsvValidationException, IOException {
+	public static void readCsv (String CsvFilePath) throws CsvValidationException, IOException {
 
 		// Get scanner instance
 		Scanner scanner = new Scanner(new File(CsvFilePath));

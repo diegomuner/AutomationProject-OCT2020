@@ -1,4 +1,4 @@
-package com.automationoct.tests;
+package com.automationoct.helpers;
 
 import java.util.concurrent.TimeUnit;
 import org.aeonbits.owner.ConfigFactory;
@@ -18,8 +18,8 @@ import com.automationoct.Reporters;
 
 public class BaseTest  {
 
-	WebDriver driver;
-	Environment testEnvironment;
+	protected WebDriver driver;
+	protected Environment testEnvironment;
 	Reporters testReporter;
 
 	@BeforeClass

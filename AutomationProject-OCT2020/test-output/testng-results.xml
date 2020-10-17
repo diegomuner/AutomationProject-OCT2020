@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[1000sales.csv procesado perfecto!]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-10-17T20:02:22 ART" name="Default suite" finished-at="2020-10-17T20:02:29 ART" duration-ms="7579">
+  <suite started-at="2020-10-17T20:30:56 ART" name="Default suite" finished-at="2020-10-17T20:30:56 ART" duration-ms="59">
     <groups>
     </groups>
-    <test started-at="2020-10-17T20:02:22 ART" name="Default test" finished-at="2020-10-17T20:02:29 ART" duration-ms="7579">
+    <test started-at="2020-10-17T20:30:56 ART" name="Default test" finished-at="2020-10-17T20:30:56 ART" duration-ms="59">
       <class name="com.automationoct.tests.ReadersTests">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.automationoct.tests.ReadersTests@6dc17b83]" started-at="2020-10-17T20:02:22 ART" name="setUp" finished-at="2020-10-17T20:02:29 ART" duration-ms="6940" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6999cd39]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qa]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[testNg]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationoct.tests.ReadersTests@1a451d4d]" started-at="2020-10-17T20:30:56 ART" name="setUp" finished-at="2020-10-17T20:30:56 ART" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestCsvReaderClass1()[pri:0, instance:com.automationoct.tests.ReadersTests@6dc17b83]" started-at="2020-10-17T20:02:29 ART" name="TestCsvReaderClass1" finished-at="2020-10-17T20:02:29 ART" duration-ms="13" status="PASS">
+        <test-method signature="TestCsvReaderClass1()[pri:0, instance:com.automationoct.tests.ReadersTests@1a451d4d]" started-at="2020-10-17T20:30:56 ART" name="TestCsvReaderClass1" finished-at="2020-10-17T20:30:56 ART" duration-ms="24" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[1000sales.csv procesado perfecto!]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestCsvReaderClass1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.ReadersTests@6dc17b83]" started-at="2020-10-17T20:02:29 ART" name="tearDown" finished-at="2020-10-17T20:02:29 ART" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.ReadersTests@1a451d4d]" started-at="2020-10-17T20:30:56 ART" name="tearDown" finished-at="2020-10-17T20:30:56 ART" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

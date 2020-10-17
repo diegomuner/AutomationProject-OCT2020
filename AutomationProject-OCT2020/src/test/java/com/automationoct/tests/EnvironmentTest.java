@@ -3,6 +3,8 @@ package com.automationoct.tests;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+import com.automationoct.helpers.BaseTest;
 import com.automationoct.webpages.GooglePage;
 
 @Listeners({ com.automationoct.CustomListener.class })

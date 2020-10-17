@@ -2,13 +2,17 @@ package com.automationoct.tests;
 
 import java.io.IOException;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import com.automationoct.helpers.NoWebDriverTest;
 import com.automationoct.utilities.CSVReaderClass;
 import com.automationoct.utilities.ReadCsvFiles;
 import com.opencsv.exceptions.CsvValidationException;
 
-public class ReadersTests extends BaseTest {
+import jdk.jfr.internal.Logger;
+
+public class ReadersTests extends NoWebDriverTest {
 	
 	
 	
@@ -16,9 +20,10 @@ public class ReadersTests extends BaseTest {
 	@Test
 	public void TestCsvReaderClass1() throws Exception {
 		
-		// CSVReaderClass.readCSV("SampleCSVFile.csv");
-		ReadCsvFiles.readCSV("SampleCSVFile.csv");
-		
+		ReadCsvFiles.readCsv("100sales.csv");
+		Reporter.log("1000sales.csv procesado perfecto!");
+		//CSVReaderClass.readCsv("SampleCSVFile.csv");
+		//Reporter.log("Sample.csv procesado perfecto!");
 		
 		
 		

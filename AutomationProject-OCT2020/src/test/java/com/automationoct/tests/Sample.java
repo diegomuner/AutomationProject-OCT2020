@@ -3,6 +3,8 @@ package com.automationoct.tests;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
+
+import com.automationoct.helpers.BaseTest;
 import com.automationoct.webpages.GooglePage;
 
 public class Sample extends BaseTest {
