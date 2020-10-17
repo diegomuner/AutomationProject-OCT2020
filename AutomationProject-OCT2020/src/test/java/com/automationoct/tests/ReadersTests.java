@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 import com.automationoct.helpers.NoWebDriverTest;
 import com.automationoct.utilities.CSVReaderClass;
 import com.automationoct.utilities.ReadCsvFiles;
-import com.opencsv.exceptions.CsvValidationException;
 
-import jdk.jfr.internal.Logger;
+
+
 
 public class ReadersTests extends NoWebDriverTest {
 	
@@ -22,10 +22,8 @@ public class ReadersTests extends NoWebDriverTest {
 		
 		ReadCsvFiles.readCsv("100sales.csv");
 		Reporter.log("1000sales.csv procesado perfecto!");
-		//CSVReaderClass.readCsv("SampleCSVFile.csv");
-		//Reporter.log("Sample.csv procesado perfecto!");
-		
-		
+		CSVReaderClass.readCsv("SampleCSVFile.csv");
+		Reporter.log("Sample.csv procesado perfecto!");
 		
 		
 	}
