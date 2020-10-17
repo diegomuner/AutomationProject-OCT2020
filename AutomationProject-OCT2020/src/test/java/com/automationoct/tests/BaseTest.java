@@ -5,6 +5,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestContext;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
@@ -15,7 +16,7 @@ import com.automationoct.Reporters;
 
 @Listeners({ com.automationoct.CustomListener.class })
 
-public class BaseTest {
+public class BaseTest  {
 
 	WebDriver driver;
 	Environment testEnvironment;
@@ -23,16 +24,13 @@ public class BaseTest {
 
 	@BeforeClass
 
-	@Parameters({ "environment","reporter" })
-	public void setUp(ITestContext context, @Optional("qa") String environment,@Optional("testNg") String reporter) {
+	@Parameters({ "environment", "reporter" })
+	public void setUp(ITestContext context, @Optional("qa") String environment, @Optional("testNg") String reporter) {
 
 		ConfigFactory.setProperty("env", environment);
 		testEnvironment = ConfigFactory.create(Environment.class);
 		ConfigFactory.setProperty("rep", reporter);
 		testReporter = ConfigFactory.create(Reporters.class);
-		
-		
-		
 		System.out.println("baseTestBeforeClass called");
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\diego\\Downloads\\chromedriver_win32\\chromedriver.exe");
@@ -72,5 +70,10 @@ public class BaseTest {
 		return driver;
 
 	}
+		
+	
 
-}
+
+	}
+
+

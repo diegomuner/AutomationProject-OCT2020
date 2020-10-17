@@ -10,7 +10,9 @@ public interface Reporters extends Config{
 	
 	String reporterName();
 
-	
+
+
+void log1(String text);	
 	}
 
 

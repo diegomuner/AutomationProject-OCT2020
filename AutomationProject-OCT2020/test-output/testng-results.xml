@@ -8,16 +8,16 @@
       <![CDATA[Estamos en Zambicooking!!!]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-10-16T14:06:38 ART" name="Failed suite [Default suite]" finished-at="2020-10-16T14:06:52 ART" duration-ms="13930">
+  <suite started-at="2020-10-16T21:12:59 ART" name="Default suite" finished-at="2020-10-16T21:13:10 ART" duration-ms="11407">
     <groups>
     </groups>
-    <test started-at="2020-10-16T14:06:38 ART" name="Default test(failed)" finished-at="2020-10-16T14:06:52 ART" duration-ms="13930">
+    <test started-at="2020-10-16T21:12:59 ART" name="Default test" finished-at="2020-10-16T21:13:10 ART" duration-ms="11407">
       <class name="com.automationoct.tests.Sample">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.automationoct.tests.Sample@8dbdac1]" started-at="2020-10-16T14:06:38 ART" name="setUp" finished-at="2020-10-16T14:06:46 ART" duration-ms="8203" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.automationoct.tests.Sample@32eff876]" started-at="2020-10-16T21:12:59 ART" name="setUp" finished-at="2020-10-16T21:13:06 ART" duration-ms="7042" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6df7988f]]>
+                <![CDATA[org.testng.TestRunner@7e8a46b7]]>
               </value>
             </param>
             <param index="1">
@@ -25,11 +25,16 @@
                 <![CDATA[qa]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[testNg]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="GoogleSearch()[pri:0, instance:com.automationoct.tests.Sample@8dbdac1]" started-at="2020-10-16T14:06:46 ART" name="GoogleSearch" finished-at="2020-10-16T14:06:51 ART" duration-ms="4992" status="PASS">
+        <test-method signature="GoogleSearch()[pri:0, instance:com.automationoct.tests.Sample@32eff876]" started-at="2020-10-16T21:13:06 ART" name="GoogleSearch" finished-at="2020-10-16T21:13:10 ART" duration-ms="3699" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logramos Buscar a Zambicooking]]>
@@ -39,11 +44,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- GoogleSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.Sample@8dbdac1]" started-at="2020-10-16T14:06:51 ART" name="tearDown" finished-at="2020-10-16T14:06:52 ART" duration-ms="707" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.Sample@32eff876]" started-at="2020-10-16T21:13:10 ART" name="tearDown" finished-at="2020-10-16T21:13:10 ART" duration-ms="644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.automationoct.tests.Sample -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
