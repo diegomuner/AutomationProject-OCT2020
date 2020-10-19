@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[1000sales.csv procesado perfecto!]]>
+    </line>
+    <line>
+      <![CDATA[Sample.csv procesado perfecto!]]>
+    </line>
+    <line>
+      <![CDATA[printCSV Method va bien]]>
+    </line>
+    <line>
+      <![CDATA[Json Reader tambien funciona]]>
+    </line>
+    <line>
+      <![CDATA[xls todo joya]]>
+    </line>
+    <line>
+      <![CDATA[xls todo joya]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-10-18T23:57:57 ART" name="Default suite" finished-at="2020-10-18T23:57:57 ART" duration-ms="144">
+  <suite started-at="2020-10-19T00:03:05 ART" name="MultipleSuite" finished-at="2020-10-19T00:03:05 ART" duration-ms="0">
     <groups>
     </groups>
-    <test started-at="2020-10-18T23:57:57 ART" name="Default test" finished-at="2020-10-18T23:57:57 ART" duration-ms="144">
+  </suite> <!-- MultipleSuite -->
+  <suite started-at="2020-10-19T00:03:03 ART" name="Suite2" finished-at="2020-10-19T00:03:04 ART" duration-ms="1290">
+    <groups>
+    </groups>
+    <test started-at="2020-10-19T00:03:03 ART" name="Test1" finished-at="2020-10-19T00:03:04 ART" duration-ms="1290">
       <class name="com.automationoct.tests.ReadersTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationoct.tests.ReadersTests@5fdcaa40]" started-at="2020-10-18T23:57:57 ART" name="setUp" finished-at="2020-10-18T23:57:57 ART" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:03 ART" name="setUp" finished-at="2020-10-19T00:03:03 ART" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestJsonReader1()[pri:0, instance:com.automationoct.tests.ReadersTests@5fdcaa40]" started-at="2020-10-18T23:57:57 ART" name="TestJsonReader1" finished-at="2020-10-18T23:57:57 ART" duration-ms="112" status="PASS">
+        <test-method signature="TestCsvReaderClass1()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:03 ART" name="TestCsvReaderClass1" finished-at="2020-10-19T00:03:03 ART" duration-ms="48" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[1000sales.csv procesado perfecto!]]>
+            </line>
+            <line>
+              <![CDATA[Sample.csv procesado perfecto!]]>
+            </line>
+            <line>
+              <![CDATA[printCSV Method va bien]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCsvReaderClass1 -->
+        <test-method signature="TestJsonReader1()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:03 ART" name="TestJsonReader1" finished-at="2020-10-19T00:03:03 ART" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Json Reader tambien funciona]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestJsonReader1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.ReadersTests@5fdcaa40]" started-at="2020-10-18T23:57:57 ART" name="tearDown" finished-at="2020-10-18T23:57:57 ART" duration-ms="0" status="PASS">
+        <test-method signature="TestXlsReader1()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:03 ART" name="TestXlsReader1" finished-at="2020-10-19T00:03:04 ART" duration-ms="1190" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[xls todo joya]]>
+            </line>
+            <line>
+              <![CDATA[xls todo joya]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestXlsReader1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:04 ART" name="tearDown" finished-at="2020-10-19T00:03:04 ART" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.automationoct.tests.ReadersTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite2 -->
 </testng-results>

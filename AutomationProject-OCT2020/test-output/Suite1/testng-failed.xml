@@ -11,8 +11,8 @@
         <methods>
           <include name="GoogleSearch"/>
           <include name="tearDown"/>
-          <include name="TestTest"/>
           <include name="setUp"/>
+          <include name="TestTest"/>
           <include name="TestTestTest"/>
         </methods>
       </class> <!-- com.automationoct.tests.Sample -->
@@ -21,7 +21,6 @@
           <include name="TestTestTest43"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="myTest"/>
         </methods>
       </class> <!-- com.automationoct.tests.EnvironmentTest -->
     </classes>
@@ -32,8 +31,8 @@
         <methods>
           <include name="GoogleSearch"/>
           <include name="tearDown"/>
-          <include name="TestTest"/>
           <include name="setUp"/>
+          <include name="TestTest"/>
           <include name="TestTestTest"/>
         </methods>
       </class> <!-- com.automationoct.tests.Sample -->
@@ -42,7 +41,6 @@
           <include name="TestTestTest43"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="myTest"/>
         </methods>
       </class> <!-- com.automationoct.tests.EnvironmentTest -->
     </classes>

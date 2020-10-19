@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/6</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 15 20:16:54 ART 2020</td>
+<td>Started on:</td><td>Mon Oct 19 00:02:08 ART 2020</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3963 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (104 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,27 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.automationoct.tests.Sample.setUp()'><b>setUp</b><br>Test class: com.automationoct.tests.Sample<br>Parameters: org.testng.TestRunner@7c90cd6c, ${environment}</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+<td title='com.automationoct.tests.Sample.setUp()'><b>setUp</b><br>Test class: com.automationoct.tests.Sample<br>Parameters: org.testng.TestRunner@3be33fd5, ${environment}, testNg</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1022104705", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1022104705'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1793435363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1793435363'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,30 +98,18 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>3</td>
-<td>com.automationoct.tests.Sample@62150f9e</td></tr>
+<td>0</td>
+<td>com.automationoct.tests.Sample@7c729a55</td></tr>
 <tr>
-<td title='com.automationoct.tests.EnvironmentTest.setUp()'><b>setUp</b><br>Test class: com.automationoct.tests.EnvironmentTest<br>Parameters: org.testng.TestRunner@7c90cd6c, ${environment}</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+<td title='com.automationoct.tests.EnvironmentTest.setUp()'><b>setUp</b><br>Test class: com.automationoct.tests.EnvironmentTest<br>Parameters: org.testng.TestRunner@3be33fd5, ${environment}, testNg</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1863338951", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1863338951'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1192219316", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1192219316'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -148,8 +124,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>3</td>
-<td>com.automationoct.tests.EnvironmentTest@1a451d4d</td></tr>
+<td>0</td>
+<td>com.automationoct.tests.EnvironmentTest@3bb9a3ff</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -159,15 +135,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.automationoct.tests.Sample.tearDown()'><b>tearDown</b><br>Test class: com.automationoct.tests.Sample</td>
-<td></td>
-<td>-1602803818</td>
-<td>com.automationoct.tests.Sample@62150f9e</td></tr>
-<tr>
 <td title='com.automationoct.tests.EnvironmentTest.tearDown()'><b>tearDown</b><br>Test class: com.automationoct.tests.EnvironmentTest</td>
 <td></td>
-<td>-1602803818</td>
-<td>com.automationoct.tests.EnvironmentTest@1a451d4d</td></tr>
+<td>-1603076529</td>
+<td>com.automationoct.tests.EnvironmentTest@3bb9a3ff</td></tr>
+<tr>
+<td title='com.automationoct.tests.Sample.tearDown()'><b>tearDown</b><br>Test class: com.automationoct.tests.Sample</td>
+<td></td>
+<td>-1603076529</td>
+<td>com.automationoct.tests.Sample@7c729a55</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -178,26 +154,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.automationoct.tests.Sample.GoogleSearch()'><b>GoogleSearch</b><br>Test class: com.automationoct.tests.Sample</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace300483924", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace300483924'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace416746090", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace416746090'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -213,29 +177,17 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.automationoct.tests.Sample@62150f9e</td></tr>
+<td>com.automationoct.tests.Sample@7c729a55</td></tr>
 <tr>
 <td title='com.automationoct.tests.Sample.TestTest()'><b>TestTest</b><br>Test class: com.automationoct.tests.Sample</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace155169179", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace155169179'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1177989356", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1177989356'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -251,29 +203,17 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.automationoct.tests.Sample@62150f9e</td></tr>
+<td>com.automationoct.tests.Sample@7c729a55</td></tr>
 <tr>
 <td title='com.automationoct.tests.Sample.TestTestTest()'><b>TestTestTest</b><br>Test class: com.automationoct.tests.Sample</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1968192297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1968192297'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1489140919", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1489140919'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -289,29 +229,17 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.automationoct.tests.Sample@62150f9e</td></tr>
+<td>com.automationoct.tests.Sample@7c729a55</td></tr>
 <tr>
 <td title='com.automationoct.tests.EnvironmentTest.TestTestTest43()'><b>TestTestTest43</b><br>Test class: com.automationoct.tests.EnvironmentTest</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1758015190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1758015190'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace83004625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace83004625'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.automationoct.helpers.BaseTest.setUp(BaseTest.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -327,83 +255,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.automationoct.tests.EnvironmentTest@1a451d4d</td></tr>
-<tr>
-<td title='com.automationoct.tests.EnvironmentTest.myTest()'><b>myTest</b><br>Test class: com.automationoct.tests.EnvironmentTest<br>Parameters: First-Value</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace457122889", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace457122889'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>0</td>
-<td>com.automationoct.tests.EnvironmentTest@1a451d4d</td></tr>
-<tr>
-<td title='com.automationoct.tests.EnvironmentTest.myTest()'><b>myTest</b><br>Test class: com.automationoct.tests.EnvironmentTest<br>Parameters: Second-Value</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1170394676", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1170394676'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:71)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:125)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:55)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at com.automationoct.tests.BaseTest.setUp(BaseTest.java:47)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>0</td>
-<td>com.automationoct.tests.EnvironmentTest@1a451d4d</td></tr>
+<td>com.automationoct.tests.EnvironmentTest@3bb9a3ff</td></tr>
 </table><p>
 </body>
 </html>
