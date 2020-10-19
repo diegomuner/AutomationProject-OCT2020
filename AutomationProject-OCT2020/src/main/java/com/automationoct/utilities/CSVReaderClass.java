@@ -35,10 +35,10 @@ public class CSVReaderClass {
 
 
 	}
-/*
-	private static void printCSV() throws IOException, CsvValidationException {
 
-		csvReader = new CSVReader(new FileReader("SampleCSVFile.csv"));
+	public static void printCSV(String CsvFilePath) throws IOException, CsvValidationException {
+
+		csvReader = new CSVReader(new FileReader(CsvFilePath));
 
 		while ((csvCell = csvReader.readNext()) != null) {
 
@@ -48,5 +48,5 @@ public class CSVReaderClass {
 		}
 
 	}
-*/
+
 }

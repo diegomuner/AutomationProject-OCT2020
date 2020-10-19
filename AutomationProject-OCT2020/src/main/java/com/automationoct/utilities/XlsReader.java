@@ -13,10 +13,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class XlsReader {
 
-	public static void main(String[] args) throws IOException {
+	public static void readXls(String XlsFilePath) throws IOException {
 		// Path of the excel file
 
-		FileInputStream fs = new FileInputStream("Financial Sample.xlsx");
+		FileInputStream fs = new FileInputStream(XlsFilePath);
 		try (// Creating a workbook
 				XSSFWorkbook workbook = new XSSFWorkbook(fs)) {
 			XSSFSheet sheet = workbook.getSheetAt(0);
@@ -66,10 +66,10 @@ public class XlsReader {
 	 * 
 	 */
 
-	public static void parseXLSX() {
+	public static void parseXLSX(String xlsFilePath) {
 
-		String pathToXLSX = "Financial Sample.xlsx";
-		File file = new File(pathToXLSX);
+		
+		File file = new File(xlsFilePath);
 
 		FileInputStream in = null;
 

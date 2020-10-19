@@ -12,11 +12,11 @@ import org.json.simple.parser.ParseException;
 public class JsonReader {
 
 	@SuppressWarnings("unchecked")
-	public static void main(String[] args) {
+	public static void readJson(String JsonFilePath) throws IOException {
 		// JSON parser object to parse read file
 		JSONParser jsonParser = new JSONParser();
 
-		try (FileReader reader = new FileReader("example_2.json")) {
+		try (FileReader reader = new FileReader(JsonFilePath)) {
 			// Read JSON file
 			JSONObject obj = (JSONObject) jsonParser.parse(reader);
 
