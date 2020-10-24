@@ -37,10 +37,11 @@ public class XlsReader {
 					Cell cell = cellIterator.next();
 					// Check the cell type and format accordingly
 					switch (cell.getCellType()) {
-					case Cell.CELL_TYPE_NUMERIC:
+					case NUMERIC:
 						System.out.print(cell.getNumericCellValue() + " ");
 						break;
-					case Cell.CELL_TYPE_STRING:
+						//	case Cell.CELL_TYPE_STRING: changes to -->
+					case STRING:
 						System.out.print(cell.getStringCellValue() + " ");
 						break;
 					}

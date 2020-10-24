@@ -8,6 +8,9 @@ import org.aeonbits.owner.Config.Sources;
 public interface Environment extends Config {
 
 	String url();
+	
+	String urlTestPage();
+	
 
 	String username();
 

@@ -1,73 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[1000sales.csv procesado perfecto!]]>
-    </line>
-    <line>
-      <![CDATA[Sample.csv procesado perfecto!]]>
-    </line>
-    <line>
-      <![CDATA[printCSV Method va bien]]>
-    </line>
-    <line>
-      <![CDATA[Json Reader tambien funciona]]>
-    </line>
-    <line>
-      <![CDATA[xls todo joya]]>
-    </line>
-    <line>
-      <![CDATA[xls todo joya]]>
-    </line>
   </reporter-output>
-  <suite started-at="2020-10-19T00:03:05 ART" name="MultipleSuite" finished-at="2020-10-19T00:03:05 ART" duration-ms="0">
+  <suite started-at="2020-10-24T12:47:09 ART" name="Default suite" finished-at="2020-10-24T12:47:16 ART" duration-ms="7589">
     <groups>
     </groups>
-  </suite> <!-- MultipleSuite -->
-  <suite started-at="2020-10-19T00:03:03 ART" name="Suite2" finished-at="2020-10-19T00:03:04 ART" duration-ms="1290">
-    <groups>
-    </groups>
-    <test started-at="2020-10-19T00:03:03 ART" name="Test1" finished-at="2020-10-19T00:03:04 ART" duration-ms="1290">
-      <class name="com.automationoct.tests.ReadersTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:03 ART" name="setUp" finished-at="2020-10-19T00:03:03 ART" duration-ms="8" status="PASS">
+    <test started-at="2020-10-24T12:47:09 ART" name="Default test" finished-at="2020-10-24T12:47:16 ART" duration-ms="7589">
+      <class name="com.automationoct.tests.TestWebPageTests">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@6e20b53a]" started-at="2020-10-24T12:47:09 ART" name="setUp" finished-at="2020-10-24T12:47:15 ART" duration-ms="6642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a037324]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestCsvReaderClass1()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:03 ART" name="TestCsvReaderClass1" finished-at="2020-10-19T00:03:03 ART" duration-ms="48" status="PASS">
+        <test-method signature="LoginTestPage()[pri:0, instance:com.automationoct.tests.TestWebPageTests@6e20b53a]" started-at="2020-10-24T12:47:15 ART" name="LoginTestPage" finished-at="2020-10-24T12:47:15 ART" duration-ms="4" status="FAIL">
+          <exception class="java.util.UnknownFormatConversionException">
+            <message>
+              <![CDATA[Conversion = 'J']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.UnknownFormatConversionException: Conversion = 'J'
+at java.base/java.util.Formatter$FormatSpecifier.conversion(Formatter.java:2839)
+at java.base/java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2865)
+at java.base/java.util.Formatter.parse(Formatter.java:2713)
+at java.base/java.util.Formatter.format(Formatter.java:2655)
+at java.base/java.util.Formatter.format(Formatter.java:2609)
+at java.base/java.lang.String.format(String.java:3292)
+at org.aeonbits.owner.PropertiesInvocationHandler.format(PropertiesInvocationHandler.java:97)
+at org.aeonbits.owner.PropertiesInvocationHandler.resolveProperty(PropertiesInvocationHandler.java:82)
+at org.aeonbits.owner.PropertiesInvocationHandler.invoke(PropertiesInvocationHandler.java:63)
+at com.sun.proxy.$Proxy15.urlTestPage(Unknown Source)
+at com.automationoct.tests.TestWebPageTests.LoginTestPage(TestWebPageTests.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.UnknownFormatConversionException -->
           <reporter-output>
-            <line>
-              <![CDATA[1000sales.csv procesado perfecto!]]>
-            </line>
-            <line>
-              <![CDATA[Sample.csv procesado perfecto!]]>
-            </line>
-            <line>
-              <![CDATA[printCSV Method va bien]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- TestCsvReaderClass1 -->
-        <test-method signature="TestJsonReader1()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:03 ART" name="TestJsonReader1" finished-at="2020-10-19T00:03:03 ART" duration-ms="12" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Json Reader tambien funciona]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestJsonReader1 -->
-        <test-method signature="TestXlsReader1()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:03 ART" name="TestXlsReader1" finished-at="2020-10-19T00:03:04 ART" duration-ms="1190" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[xls todo joya]]>
-            </line>
-            <line>
-              <![CDATA[xls todo joya]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestXlsReader1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.ReadersTests@47af7f3d]" started-at="2020-10-19T00:03:04 ART" name="tearDown" finished-at="2020-10-19T00:03:04 ART" duration-ms="0" status="PASS">
+        </test-method> <!-- LoginTestPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.TestWebPageTests@6e20b53a]" started-at="2020-10-24T12:47:16 ART" name="tearDown" finished-at="2020-10-24T12:47:16 ART" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automationoct.tests.ReadersTests -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite2 -->
+      </class> <!-- com.automationoct.tests.TestWebPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
