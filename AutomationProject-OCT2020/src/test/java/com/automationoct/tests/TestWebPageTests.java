@@ -4,9 +4,10 @@ package com.automationoct.tests;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-
+import com.automationoct.dataproviders.TestWebPageDataProvider;
 import com.automationoct.helpers.TestWebPageHelper;
 import com.automationoct.webpages.testwebpage.TestLoginPage;
 
@@ -14,10 +15,9 @@ import com.automationoct.webpages.testwebpage.TestLoginPage;
 public class TestWebPageTests extends TestWebPageHelper {
 
 	
+@Test (invocationCount=1, dataProvider="data1", dataProviderClass=TestWebPageDataProvider.class)
 
-	@Test (invocationCount=20)
-
-	public void LoginTestPage() throws InterruptedException {
+	public void LoginTestPage(String userName, String password) throws InterruptedException {
 		driver.get(testEnvironment.urlTestPage());
 		
 		// We use javascript document.readyState to wait
@@ -28,7 +28,7 @@ public class TestWebPageTests extends TestWebPageHelper {
 		Reporter.log("estamos en la login page de pagina test");
 	    TestLoginPage home= new TestLoginPage(driver);
 	    home.verifyPageLoaded();
-	    home.login("Diego", "alohaway");
+	    home.login(userName, password);
 	    
 	    
 		

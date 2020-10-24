@@ -4,9 +4,9 @@
 
 <suite name="MultipleSuite">
 	<suite-files>
-	 	<suite-file path="testingsampleclass.xml"></suite-file>   
-		<suite-file path="nowebdrivertests.xml"></suite-file>
-
+<!-- 	  <suite-file path="testingsampleclass.xml"></suite-file>    -->
+ <!-- 		<suite-file path="nowebdrivertests.xml"></suite-file>-->
+		<suite-file path="testwebpagerunner.xml"></suite-file>
 	</suite-files>
 </suite>
 

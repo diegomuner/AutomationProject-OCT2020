@@ -35,9 +35,11 @@ public class TestLoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void login(String username, String password) {
+	public void login(String username, String password) throws InterruptedException {
 		userNameField.sendKeys(username);
+		Thread.sleep(1000);
 		passwordField.sendKeys(password);
+		Thread.sleep(1000);
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(loginButton));
 		loginButton.click();
