@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 24 12:47:09 ART 2020</td>
+<td>Started on:</td><td>Sat Oct 24 13:22:36 ART 2020</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7589 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12044 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,99 +67,273 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests</td>
-<td><div><pre>java.util.UnknownFormatConversionException: Conversion = &apos;J&apos;
-	at java.base/java.util.Formatter$FormatSpecifier.conversion(Formatter.java:2839)
-	at java.base/java.util.Formatter$FormatSpecifier.&lt;init&gt;(Formatter.java:2865)
-	at java.base/java.util.Formatter.parse(Formatter.java:2713)
-	at java.base/java.util.Formatter.format(Formatter.java:2655)
-	at java.base/java.util.Formatter.format(Formatter.java:2609)
-	at java.base/java.lang.String.format(String.java:3292)
-	at org.aeonbits.owner.PropertiesInvocationHandler.format(PropertiesInvocationHandler.java:97)
-	at org.aeonbits.owner.PropertiesInvocationHandler.resolveProperty(PropertiesInvocationHandler.java:82)
-	at org.aeonbits.owner.PropertiesInvocationHandler.invoke(PropertiesInvocationHandler.java:63)
-	at com.sun.proxy.$Proxy15.urlTestPage(Unknown Source)
-	at com.automationoct.tests.TestWebPageTests.LoginTestPage(TestWebPageTests.java:18)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1300132917", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1300132917'><pre>java.util.UnknownFormatConversionException: Conversion = &apos;J&apos;
-	at java.base/java.util.Formatter$FormatSpecifier.conversion(Formatter.java:2839)
-	at java.base/java.util.Formatter$FormatSpecifier.&lt;init&gt;(Formatter.java:2865)
-	at java.base/java.util.Formatter.parse(Formatter.java:2713)
-	at java.base/java.util.Formatter.format(Formatter.java:2655)
-	at java.base/java.util.Formatter.format(Formatter.java:2609)
-	at java.base/java.lang.String.format(String.java:3292)
-	at org.aeonbits.owner.PropertiesInvocationHandler.format(PropertiesInvocationHandler.java:97)
-	at org.aeonbits.owner.PropertiesInvocationHandler.resolveProperty(PropertiesInvocationHandler.java:82)
-	at org.aeonbits.owner.PropertiesInvocationHandler.invoke(PropertiesInvocationHandler.java:63)
-	at com.sun.proxy.$Proxy15.urlTestPage(Unknown Source)
-	at com.automationoct.tests.TestWebPageTests.LoginTestPage(TestWebPageTests.java:18)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-455888635" onClick='toggleBox("Output-455888635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455888635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455888635">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.automationoct.tests.TestWebPageTests@6e20b53a</td></tr>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1173340685" onClick='toggleBox("Output-1173340685", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1173340685" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1173340685">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1213871206" onClick='toggleBox("Output-1213871206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1213871206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1213871206">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-259319861" onClick='toggleBox("Output-259319861", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-259319861" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-259319861">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-99770475" onClick='toggleBox("Output-99770475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99770475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99770475">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1367068823" onClick='toggleBox("Output-1367068823", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1367068823" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1367068823">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1523510420" onClick='toggleBox("Output-1523510420", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1523510420" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1523510420">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-47918293" onClick='toggleBox("Output-47918293", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-47918293" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-47918293">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-740467528" onClick='toggleBox("Output-740467528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-740467528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-740467528">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-623051334" onClick='toggleBox("Output-623051334", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-623051334" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-623051334">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1438000681" onClick='toggleBox("Output-1438000681", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1438000681" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1438000681">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1227224309" onClick='toggleBox("Output-1227224309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1227224309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1227224309">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-795594631" onClick='toggleBox("Output-795594631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-795594631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-795594631">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1622863652" onClick='toggleBox("Output-1622863652", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1622863652" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1622863652">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-261567641" onClick='toggleBox("Output-261567641", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-261567641" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-261567641">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1871580398" onClick='toggleBox("Output-1871580398", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1871580398" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1871580398">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-1643379640" onClick='toggleBox("Output-1643379640", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1643379640" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1643379640">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-339126187" onClick='toggleBox("Output-339126187", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-339126187" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-339126187">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-238308051" onClick='toggleBox("Output-238308051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-238308051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-238308051">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
+<tr>
+<td title='com.automationoct.tests.TestWebPageTests.LoginTestPage()'><b>LoginTestPage</b><br>Test class: com.automationoct.tests.TestWebPageTests<br/>
+<a href="#Output-173197870" onClick='toggleBox("Output-173197870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-173197870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-173197870">
+estamos en la login page de pagina test<br/>
+estamos en la login page de pagina test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.automationoct.tests.TestWebPageTests@74a10858</td></tr>
 </table><p>
 </body>
 </html>

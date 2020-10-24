@@ -9,6 +9,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
 public class TestLoginPage {
 	private WebDriver driver;
@@ -44,7 +45,22 @@ public class TestLoginPage {
 
 
 
+	public void verifyPageLoaded() {
+		
+	if( loginButton.isEnabled() == false) {
+        System.out.print("boton deshabilitado");
+		}
 	
+	if( userNameField.isDisplayed() == true) {
+        System.out.print("user name field present");
+		}
+		
+	if( passwordField.isDisplayed() == true) {
+        System.out.print("password field present");
+		}
+	Reporter.log("estamos en la login page de pagina test");
+		
+	}
 
 	public WebDriver getDriver() {
 		return driver;
