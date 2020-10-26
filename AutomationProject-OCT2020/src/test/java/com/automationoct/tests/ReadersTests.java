@@ -40,15 +40,11 @@ public class ReadersTests extends NoWebDriverTest {
 	// JSON TESTS
 	@Test
 	public void TestJsonReader1() throws Exception {
-		JsonReader.readJson("example_2.json");
+		JsonReader.readJson("usernames.json");
 		Reporter.log("Json Reader tambien funciona");
 		
 		
 	}
 	
-	
-	
-	
-	
-	
+		
 }
