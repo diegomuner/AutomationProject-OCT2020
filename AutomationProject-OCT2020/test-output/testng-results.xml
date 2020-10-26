@@ -1,31 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
   <reporter-output>
     <line>
-      <![CDATA[Json Reader tambien funciona]]>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42" started-at="2020-10-25T23:24:22 ART" finished-at="2020-10-25T23:24:22 ART">
+  <suite name="Default suite" duration-ms="18700" started-at="2020-10-26T17:26:38 ART" finished-at="2020-10-26T17:26:57 ART">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42" started-at="2020-10-25T23:24:22 ART" finished-at="2020-10-25T23:24:22 ART">
-      <class name="com.automationoct.tests.ReadersTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationoct.tests.ReadersTests@13eb8acf]" name="setUp" is-config="true" duration-ms="7" started-at="2020-10-25T23:24:22 ART" finished-at="2020-10-25T23:24:22 ART">
+    <test name="Default test" duration-ms="18700" started-at="2020-10-26T17:26:38 ART" finished-at="2020-10-26T17:26:57 ART">
+      <class name="com.automationoct.tests.TestWebPageTests">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="setUp" is-config="true" duration-ms="6579" started-at="2020-10-26T17:26:38 ART" finished-at="2020-10-26T17:26:45 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34abdee4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TestJsonReader1()[pri:0, instance:com.automationoct.tests.ReadersTests@13eb8acf]" name="TestJsonReader1" duration-ms="11" started-at="2020-10-25T23:24:22 ART" finished-at="2020-10-25T23:24:22 ART">
+        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2379" started-at="2020-10-26T17:26:45 ART" data-provider="data3" finished-at="2020-10-26T17:26:47 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1,password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Json Reader tambien funciona]]>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TestJsonReader1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationoct.tests.ReadersTests@13eb8acf]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-25T23:24:22 ART" finished-at="2020-10-25T23:24:22 ART">
+        </test-method> <!-- LoginTestPageUsingJsonFile -->
+        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2273" started-at="2020-10-26T17:26:47 ART" data-provider="data3" finished-at="2020-10-26T17:26:50 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2,password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTestPageUsingJsonFile -->
+        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2273" started-at="2020-10-26T17:26:50 ART" data-provider="data3" finished-at="2020-10-26T17:26:52 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3,password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTestPageUsingJsonFile -->
+        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2263" started-at="2020-10-26T17:26:52 ART" data-provider="data3" finished-at="2020-10-26T17:26:54 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test4,password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTestPageUsingJsonFile -->
+        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2267" started-at="2020-10-26T17:26:54 ART" data-provider="data3" finished-at="2020-10-26T17:26:56 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test5,password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTestPageUsingJsonFile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="tearDown" is-config="true" duration-ms="598" started-at="2020-10-26T17:26:56 ART" finished-at="2020-10-26T17:26:57 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automationoct.tests.ReadersTests -->
+      </class> <!-- com.automationoct.tests.TestWebPageTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

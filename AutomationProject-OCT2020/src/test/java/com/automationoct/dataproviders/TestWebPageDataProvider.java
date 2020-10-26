@@ -34,12 +34,14 @@ public class TestWebPageDataProvider {
 	//of the values with stringName[i]
 	@DataProvider(name="data3")
    public String[] readJson() throws IOException{
-      @SuppressWarnings("deprecation")
-       JsonParser jsonparser = new JsonParser();
+    //  @SuppressWarnings("deprecation")
+    //   JsonParser jsonparser = new JsonParser();
 
       FileReader reader =new FileReader("usernames2.json");
-           @SuppressWarnings("deprecation")
-           Object obj = jsonparser.parse(reader); //java object
+         //  @SuppressWarnings("deprecation")
+         //  Object obj = jsonparser.parse(reader); //java object
+      	// previous line is deprecated, no longer need to instantiate class JsonParser -> we use static methods
+           Object obj = JsonParser.parseReader(reader); //java object
            JsonObject userLoginsJsonObj = (JsonObject)obj;
            JsonArray userLoginsArray =(JsonArray)userLoginsJsonObj.get("testData"); 
            String array[] = new String[userLoginsArray.size()]; 
@@ -52,14 +54,6 @@ public class TestWebPageDataProvider {
            }
            return array;
        }
-		
-		
-		
-		//return new Object[][] { { "Diego1", "password1" }, { "Melanie2", "asdasd1" }, { "Lucky3", "bebedemomi" }, };
-	
-	
-	
-	
 	
 	}
 
