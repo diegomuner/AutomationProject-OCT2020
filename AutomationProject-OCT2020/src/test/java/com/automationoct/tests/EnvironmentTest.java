@@ -22,7 +22,7 @@ public class EnvironmentTest extends BaseTest {
 
 		driver.get(testEnvironment.url());
 		// WebDriverWait wait = new WebDriverWait(driver, 10);
-		GooglePage home = new GooglePage(driver);
+		GooglePage home = new GooglePage(driver, wait);
 		home.searchFor("samoyed");
 		Reporter.log("Logramos Buscar samoyed");
 

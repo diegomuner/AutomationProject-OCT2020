@@ -16,7 +16,7 @@ public class TestWebPageDataProvider {
 
 	@DataProvider(name = "data1")
 	public Object[][] getUserData() {
-		return new Object[][]  { { "Diego1", "password1" }, { "Melanie2", "asdasd1" }, { "Lucky3", "bebedemomi" }, };
+		return new Object[][]  { { "Diego1", "password1" }, { "Melanie2", "asdasd1" }, { "Lucky3", "pwpw3" }, };
 		
 		
 		
@@ -32,8 +32,9 @@ public class TestWebPageDataProvider {
 	//Following data provider reads from a json file all pairs of usernames and passwords and saves them in a String[] object
 	//The Tests using this data provider need to access the elements of each string by using data.split(",") and finally accessing each 
 	//of the values with stringName[i]
-	@DataProvider(name="data3")
-   public String[] readJson() throws IOException{
+	
+    @DataProvider(name="data3")
+    public String[] readJson() throws IOException{
     //  @SuppressWarnings("deprecation")
     //   JsonParser jsonparser = new JsonParser();
 

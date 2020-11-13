@@ -50,15 +50,15 @@ public class TestLoginPage {
 	public void verifyPageLoaded() {
 		
 	if( loginButton.isEnabled() == false) {
-        System.out.print("boton deshabilitado");
+        System.out.println("Button Disabled");
 		}
 	
 	if( userNameField.isDisplayed() == true) {
-        System.out.print("user name field present");
+        System.out.println("user name field present");
 		}
 		
 	if( passwordField.isDisplayed() == true) {
-        System.out.print("password field present");
+        System.out.println("password field present");
 		}
 	Reporter.log("estamos en la login page de pagina test");
 		

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationoct.tests.TestWebPageTests">
+      <class name="com.automationoct.tests.Sample">
         <methods>
-          <include name="LoginTestPage"/>
+          <include name="GoogleSearch"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.automationoct.tests.TestWebPageTests -->
+      </class> <!-- com.automationoct.tests.Sample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

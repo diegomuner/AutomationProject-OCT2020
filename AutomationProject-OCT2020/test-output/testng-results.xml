@@ -1,47 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[estamos en la login page de pagina test]]>
+      <![CDATA[Logramos Buscar a Zambicooking]]>
     </line>
     <line>
-      <![CDATA[estamos en la login page de pagina test]]>
-    </line>
-    <line>
-      <![CDATA[estamos en la login page de pagina test]]>
-    </line>
-    <line>
-      <![CDATA[estamos en la login page de pagina test]]>
-    </line>
-    <line>
-      <![CDATA[estamos en la login page de pagina test]]>
-    </line>
-    <line>
-      <![CDATA[estamos en la login page de pagina test]]>
-    </line>
-    <line>
-      <![CDATA[estamos en la login page de pagina test]]>
-    </line>
-    <line>
-      <![CDATA[estamos en la login page de pagina test]]>
-    </line>
-    <line>
-      <![CDATA[estamos en la login page de pagina test]]>
-    </line>
-    <line>
-      <![CDATA[estamos en la login page de pagina test]]>
+      <![CDATA[Estamos en Zambicooking!!!]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18700" started-at="2020-10-26T17:26:38 ART" finished-at="2020-10-26T17:26:57 ART">
+  <suite name="Default suite" duration-ms="11936" started-at="2020-11-12T21:15:10 ART" finished-at="2020-11-12T21:15:22 ART">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18700" started-at="2020-10-26T17:26:38 ART" finished-at="2020-10-26T17:26:57 ART">
-      <class name="com.automationoct.tests.TestWebPageTests">
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="setUp" is-config="true" duration-ms="6579" started-at="2020-10-26T17:26:38 ART" finished-at="2020-10-26T17:26:45 ART">
+    <test name="Default test" duration-ms="11936" started-at="2020-11-12T21:15:10 ART" finished-at="2020-11-12T21:15:22 ART">
+      <class name="com.automationoct.tests.Sample">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.automationoct.tests.Sample@43738a82]" name="setUp" is-config="true" duration-ms="7255" started-at="2020-11-12T21:15:10 ART" finished-at="2020-11-12T21:15:17 ART">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@34abdee4]]>
+                <![CDATA[org.testng.TestRunner@75459c75]]>
               </value>
             </param>
             <param index="1">
@@ -53,96 +29,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2379" started-at="2020-10-26T17:26:45 ART" data-provider="data3" finished-at="2020-10-26T17:26:47 ART">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test1,password1]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="GoogleSearch()[pri:0, instance:com.automationoct.tests.Sample@43738a82]" name="GoogleSearch" duration-ms="3632" started-at="2020-11-12T21:15:17 ART" finished-at="2020-11-12T21:15:21 ART">
           <reporter-output>
             <line>
-              <![CDATA[estamos en la login page de pagina test]]>
+              <![CDATA[Logramos Buscar a Zambicooking]]>
             </line>
             <line>
-              <![CDATA[estamos en la login page de pagina test]]>
+              <![CDATA[Estamos en Zambicooking!!!]]>
             </line>
           </reporter-output>
-        </test-method> <!-- LoginTestPageUsingJsonFile -->
-        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2273" started-at="2020-10-26T17:26:47 ART" data-provider="data3" finished-at="2020-10-26T17:26:50 ART">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test2,password2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[estamos en la login page de pagina test]]>
-            </line>
-            <line>
-              <![CDATA[estamos en la login page de pagina test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginTestPageUsingJsonFile -->
-        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2273" started-at="2020-10-26T17:26:50 ART" data-provider="data3" finished-at="2020-10-26T17:26:52 ART">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test3,password3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[estamos en la login page de pagina test]]>
-            </line>
-            <line>
-              <![CDATA[estamos en la login page de pagina test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginTestPageUsingJsonFile -->
-        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2263" started-at="2020-10-26T17:26:52 ART" data-provider="data3" finished-at="2020-10-26T17:26:54 ART">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test4,password4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[estamos en la login page de pagina test]]>
-            </line>
-            <line>
-              <![CDATA[estamos en la login page de pagina test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginTestPageUsingJsonFile -->
-        <test-method status="PASS" signature="LoginTestPageUsingJsonFile(java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="LoginTestPageUsingJsonFile" duration-ms="2267" started-at="2020-10-26T17:26:54 ART" data-provider="data3" finished-at="2020-10-26T17:26:56 ART">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test5,password5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[estamos en la login page de pagina test]]>
-            </line>
-            <line>
-              <![CDATA[estamos en la login page de pagina test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginTestPageUsingJsonFile -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationoct.tests.TestWebPageTests@c81cdd1]" name="tearDown" is-config="true" duration-ms="598" started-at="2020-10-26T17:26:56 ART" finished-at="2020-10-26T17:26:57 ART">
+        </test-method> <!-- GoogleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationoct.tests.Sample@43738a82]" name="tearDown" is-config="true" duration-ms="1024" started-at="2020-11-12T21:15:21 ART" finished-at="2020-11-12T21:15:22 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automationoct.tests.TestWebPageTests -->
+      </class> <!-- com.automationoct.tests.Sample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
