@@ -31,15 +31,23 @@ public class BaseTest {
 	@BeforeMethod
 
 	@Parameters({ "environment" })
-	public void setUp(ITestContext context, @Optional("qa") String environment) {
-		
+	//public void setUp(ITestContext context, @Optional("qa") String environment) {
+	public void setUp(@Optional("qa") String environment) {	
 		
 		ConfigFactory.setProperty("env", environment);
+		
+		System.out.println(ConfigFactory.getProperties().getProperty("env"));
+		System.out.println("classpath:${env}.properties".replace("${env}", ConfigFactory.getProperties().getProperty("env")));
+
+
+
+
 		testEnvironment = ConfigFactory.create(Environment.class);
+		
 		//testReporter = ConfigFactory.create(Reporters.class);
 		System.out.println("baseTestBeforeClass called");
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\diego\\Downloads\\chromedriver_win32\\chromedriver.exe");
+				"E:\\Descargas\\chromedriver_win32\\chromedriver.exe");
 		System.out.print(testEnvironment);
 		//System.out.print(testReporter.reporterName());
 		if (testEnvironment.url() == null) {
@@ -54,7 +62,7 @@ public class BaseTest {
 
 			driver.get(testEnvironment.url());
 			driver.manage().window().maximize();
-			context.setAttribute("webDriver", driver);
+		//	context.setAttribute("webDriver", driver);
 			System.out.println("Webdriver created and added to context");
 		}
 	}

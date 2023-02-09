@@ -1,49 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Logramos Buscar a Zambicooking]]>
+      <![CDATA[estamos en la login page de pagina test]]>
     </line>
     <line>
-      <![CDATA[Estamos en Zambicooking!!!]]>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
+    </line>
+    <line>
+      <![CDATA[estamos en la login page de pagina test]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11936" started-at="2020-11-12T21:15:10 ART" finished-at="2020-11-12T21:15:22 ART">
+  <suite started-at="2023-02-08T19:30:07 ART" name="Suite1" finished-at="2023-02-08T19:30:19 ART" duration-ms="11973">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11936" started-at="2020-11-12T21:15:10 ART" finished-at="2020-11-12T21:15:22 ART">
-      <class name="com.automationoct.tests.Sample">
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.automationoct.tests.Sample@43738a82]" name="setUp" is-config="true" duration-ms="7255" started-at="2020-11-12T21:15:10 ART" finished-at="2020-11-12T21:15:17 ART">
+    <test started-at="2023-02-08T19:30:07 ART" name="Test1" finished-at="2023-02-08T19:30:19 ART" duration-ms="11973">
+      <class name="com.automationoct.tests.TestWebPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationoct.tests.TestWebPageTests@158d2680]" started-at="2023-02-08T19:30:07 ART" name="setUp" finished-at="2023-02-08T19:30:09 ART" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTestPage(java.lang.String,java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@158d2680]" started-at="2023-02-08T19:30:09 ART" name="LoginTestPage" data-provider="data1" finished-at="2023-02-08T19:30:13 ART" duration-ms="3302" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@75459c75]]>
+                <![CDATA[Diego1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[qa]]>
+                <![CDATA[password1]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="GoogleSearch()[pri:0, instance:com.automationoct.tests.Sample@43738a82]" name="GoogleSearch" duration-ms="3632" started-at="2020-11-12T21:15:17 ART" finished-at="2020-11-12T21:15:21 ART">
+        </test-method> <!-- LoginTestPage -->
+        <test-method signature="LoginTestPage(java.lang.String,java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@158d2680]" started-at="2023-02-08T19:30:13 ART" name="LoginTestPage" data-provider="data1" finished-at="2023-02-08T19:30:16 ART" duration-ms="3258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Melanie2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdasd1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Logramos Buscar a Zambicooking]]>
+              <![CDATA[estamos en la login page de pagina test]]>
             </line>
             <line>
-              <![CDATA[Estamos en Zambicooking!!!]]>
+              <![CDATA[estamos en la login page de pagina test]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GoogleSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationoct.tests.Sample@43738a82]" name="tearDown" is-config="true" duration-ms="1024" started-at="2020-11-12T21:15:21 ART" finished-at="2020-11-12T21:15:22 ART">
+        </test-method> <!-- LoginTestPage -->
+        <test-method signature="LoginTestPage(java.lang.String,java.lang.String)[pri:0, instance:com.automationoct.tests.TestWebPageTests@158d2680]" started-at="2023-02-08T19:30:16 ART" name="LoginTestPage" data-provider="data1" finished-at="2023-02-08T19:30:19 ART" duration-ms="3254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lucky3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwpw3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+            <line>
+              <![CDATA[estamos en la login page de pagina test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTestPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationoct.tests.TestWebPageTests@158d2680]" started-at="2023-02-08T19:30:19 ART" name="tearDown" finished-at="2023-02-08T19:30:19 ART" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automationoct.tests.Sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.automationoct.tests.TestWebPageTests -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>

@@ -1,9 +1,11 @@
 package com.automationoct.helpers;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -14,7 +16,7 @@ import org.testng.annotations.Parameters;
 import com.automationoct.Environment;
 import com.automationoct.Reporters;
 
-@Listeners({ com.automationoct.CustomListener.class })
+// @Listeners({ com.automationoct.CustomListener.class })
 
 public class TestWebPageHelper  {
 
@@ -24,31 +26,34 @@ public class TestWebPageHelper  {
 
 	@BeforeClass
 
-	@Parameters({ "environment" })
-	public void setUp(ITestContext context, @Optional("qa") String environment) {
+	//@Parameters({ "environment" })
+	//public void setUp(ITestContext context, @Optional("qa") String environment) {
+		
+	public void setUp() {
 
-		ConfigFactory.setProperty("env", environment);
-		testEnvironment = ConfigFactory.create(Environment.class);
-		System.out.println("baseTestBeforeClass called");
-		System.out.println(testEnvironment);
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\diego\\Downloads\\chromedriver_win32\\chromedriver.exe");
-	
-		if (testEnvironment.urlTestPage() == null) {
+		//ConfigFactory.setProperty("env", environment);
+		//testEnvironment = ConfigFactory.create(Environment.class);
+		//System.out.println("baseTestBeforeClass called");
+		//System.out.println(testEnvironment);
+		System.setProperty("webdriver.chrome.driver", "E:\\Descargas\\chromedriver_win32\\chromedriver.exe");
+		     
 
-			System.out.println("URL WAS NOT FOUUND.. closing");
-			driver.quit();
+		//if (testEnvironment.urlTestPage() == null) {
 
-		} else {
+		//	System.out.println("URL WAS NOT FOUUND.. closing");
+		//	driver.quit();
+
+		//} else {
 			this.driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-			driver.get(testEnvironment.urlTestPage());
+			// driver.get(testEnvironment.urlTestPage());
+			driver.get("https://www.google.com");
 			driver.manage().window().maximize();
-			context.setAttribute("webDriver", driver);
+			//context.setAttribute("webDriver", driver);
 			System.out.println("Webdriver created and added to context");
 		}
-	}
+	//}
 
 	@AfterClass
 
@@ -69,9 +74,6 @@ public class TestWebPageHelper  {
 
 	}
 		
-	
-
-
 	}
 
 

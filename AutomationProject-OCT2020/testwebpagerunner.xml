@@ -4,11 +4,12 @@
 
 <suite name="Suite1">
 	<parameter name="environment" value="${environment}" />
-
+	
+<!--
 	<listeners>
 		<listener class-name="com.automationoct.CustomListener" />
 	</listeners>
-
+-->
 	<test name="Test1" parallel="classes" thread-count="2">
 
 		<classes>

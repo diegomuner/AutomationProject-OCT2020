@@ -5,6 +5,9 @@ import org.aeonbits.owner.Config.Sources;
 
 @Sources({ "classpath:${env}.properties" }) // mention the property file name
 
+//@Sources({ "${env}.properties" })
+
+
 public interface Environment extends Config {
 
 	String url();
